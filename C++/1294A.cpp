@@ -5,8 +5,8 @@ using namespace std;
 int com(int a, int b, int c){
     int tmp;
     a > b ? tmp = a : tmp = b;
-    if(tmp == a) a > c ? tmp = a : tmp = c;
-    else b > c ? tmp = b : tmp = c;
+    if(tmp == a) a > c ? tmp = a : tmp = c; //You can replace the 2 lines by this
+    else b > c ? tmp = b : tmp = c; //tmp > c ? tmp = tmp : tmp = c;
 
     return tmp ;
 }
